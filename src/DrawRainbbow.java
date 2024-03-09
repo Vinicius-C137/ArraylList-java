@@ -39,7 +39,7 @@ public class DrawRainbbow extends JPanel{
             g.setColor(colors[ counter - 1 ]);
 
             //ptrencher de 9 a 180 graus
-            g.fillArc(centerX - centerY * radius, 
+            g.fillArc(centerX - counter * radius, 
             centerY - counter * radius,
             counter * radius * 2,counter *radius * 2,0,180);
             
